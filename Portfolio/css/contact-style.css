@@ -1,0 +1,102 @@
+#contact-section {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 60px;
+    background-color: rgb(247, 247, 247);
+    height: 80vh;
+    width: 100%;
+}
+
+.contact-title h2 {
+    color: rgb(0, 102, 255);
+    font-size: 42px;
+    font-display: bold;
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.section-1-contact {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.section-2-contact {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.section-3-contact {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact-section .section-1-contact img {
+    margin-bottom: 40px;
+    width: 100px;
+}
+#contact-section .section-2-contact img {
+    margin-bottom: 40px;
+    width: 100px;
+}
+#contact-section .section-3-contact img {
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+.contact-me a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+.contact-me a:hover {
+    text-decoration: none;
+}
+
+.contact-me a:active {
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: rgb(54, 54, 54);
+    height: 30vh;
+    color: #737373;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15vh;
+    font-size: 16px;
+}
+
+@media(max-width: 768px){
+    #contact-section {height: 768px;}
+    .contact-me {display: block;}
+    #contact-section .section-1-contact p {margin-bottom: 30px;}
+    #contact-section .section-2-contact p {margin-bottom: 30px;}
+    #contact-section .section-3-contact p {margin-bottom: 30px;}
+}
+@media(max-width: 400px){
+    #contact-section .section-1-contact p {width: 50px;}
+}

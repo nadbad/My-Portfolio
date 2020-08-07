@@ -1,0 +1,66 @@
+#about-section {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 60px;
+    background-color: rgb(252, 252, 252);
+    background-image: url(../Images/background-about.png);
+    background-repeat: no-repeat;
+    background-position: 400px 140px;
+}
+
+#about-section {
+    height: 700px;
+    width: 100%;
+}
+
+#about-section h2 {
+    color: rgb(0, 102, 255);
+    font-size: 40px;
+    font-display: bold;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#about-section .aboutMe img {
+    float: left;
+    margin-left: 250px;
+    width: 300px;
+}
+
+#about-section .aboutMe p {
+    float: right;
+    color: rgb(63, 63, 63);
+    margin-right: 130px;
+    font-size: 18px;
+    width: 400px;
+}
+
+#about-section .aboutMe a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+
+#about-section .aboutMe a:active {
+    color: rgb(0, 102, 255);
+}
+
+#about-section .aboutMe a:hover {
+    color: rgb(0, 35, 87);
+}
+
+@media(max-width: 768px){
+    #about-section .aboutMe img {float: none; margin-left: 100px; margin-bottom: 20px;}
+    #about-section .aboutMe p {float: none; margin-left: 60px;}
+    #about-section {height: 900px; background-image: none;}
+}
+
+@media(max-width: 400px){
+    #about-section .aboutMe img {float: none; margin-left: 50px; margin-bottom: 20px;}
+    #about-section .aboutMe p {float: none; margin-left: 25px; width: 345px;}
+    #about-section {height: 950px; background-image: none;}
+}
