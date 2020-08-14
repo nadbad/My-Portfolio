@@ -78,9 +78,9 @@ html {
 
 .navbar.navbar-inverse.navbar-fixed-top {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    border-bottom: 0.0001mm solid grey;
     height: 13vh;
     background-color: transparent;
+    border-bottom: none;
     transition: all 0.5s;
     width: 100%;
 }
@@ -103,6 +103,10 @@ html {
 }
 
 .navbar.navbar-inverse.navbar-fixed-top.sticky .nav.navbar-nav.navbar-right a:hover {
+  color: rgb(0, 102, 255);
+}
+
+.navbar.navbar-inverse.navbar-fixed-top .nav.navbar-nav.navbar-right a:hover {
   color: rgb(0, 102, 255);
 }
 
@@ -156,10 +160,14 @@ html {
   top:0;
   right: 0;
   background-color:white;
-  opacity:0.9;
+  opacity:1;
   overflow-x:hidden;
   padding-top:60px;
   transition:0.5s;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top .side-nav .side-menu-link.home {
+  margin-top: 60px;
 }
 
 .navbar.navbar-inverse.navbar-fixed-top .side-nav a{
@@ -183,6 +191,40 @@ html {
   margin-left:50px;
 }
 
+.everything {
+  display: none;
+}
+
+.loader{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin-top: 250px;
+  display: block;
+}
+
+
+.loader-loading{
+  border: 16px solid #e0e0e0;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @media(max-width:1300px){
     .navbar.navbar-inverse.navbar-fixed-top .nav.navbar-nav.navbar-right{display:none}
     .navbar.navbar-inverse.navbar-fixed-top .open-slide{display: block; margin-top: 30px; margin-left: auto; padding-right: 20px;}
@@ -198,4 +240,3 @@ html {
   .navbar.navbar-inverse.navbar-fixed-top.sticky .navbar-header a {margin-top: 20px;}
   .navbar.navbar-inverse.navbar-fixed-top.sticky .open-slide {margin-top: 30px;}
 }
-

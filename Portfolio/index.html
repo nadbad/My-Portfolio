@@ -10,7 +10,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/home-style.css">
     <link rel="stylesheet" href="../css/about-style.css">
-    <link rel="stylesheet" href="../css/myareas-style.css">
     <link rel="stylesheet" href="../css/portfolio-style.css">
     <link rel="stylesheet" href="../css/contact-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -18,162 +17,133 @@
 </head>
 
 <body>
-    <div id="home-section">
-        <h3>NADEEM ALHASSAN</h3>
-        <p>Software Developer</p>
-        <div>
-            <button onclick="location.href='../Nadeem Alhassan Resume.pdf'" type="button" class="button-1">View My
-                CV</button>
-            <button onclick="location.href='#contact-section'" type="button" class="button-2">Get In
-                Touch</button>
-        </div>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Nadeem Alhassan</a>
-            </div>
-            <span class="open-slide">
-                <a onclick="openSlideMenu()">
-                    <svg width="30" height="30">
-                        <path d="M0,5 30,5" stroke-width="5" />
-                        <path d="M0,14 30,14" stroke-width="5" />
-                        <path d="M0,23 30,23" stroke-width="5" />
-                    </svg>
-                </a>
-            </span>
-            <div id="side-menu" class="side-nav">
-                <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                <a href="#home-section" class="nav-link">Home</a>
-                <a href="#about-section">About me</a>
-                <a href="#myareas-section">Areas of Interest</a>
-                <a href="#portfolio-section">Portfolio</a>
-                <a href="../Nadeem Alhassan Resume.pdf">View CV</a>
-                <a href="#contact-section">Contact</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#about-section">About me</a></li>
-                <li><a href="#myareas-section">Areas of Interest</a></li>
-                <li><a href="#portfolio-section">Portfolio</a></li>
-                <li><a href="../Nadeem Alhassan Resume.pdf">View CV</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-        </nav>
+    <div class="loader">
+        <div class="loader-loading"></div>
     </div>
-
-    <div id="about-section">
-        <div>
-            <h2 data-aos="zoom-in">About Me</h2>
-            <div data-aos="fade-up" class="aboutMe">
-                <img src="../Images/me.jpg" alt="A picture of me">
-                <p>My name is Nadeem Alhassan and I am an A student and senior in high school. I've always been
-                    interested in technology as young as I can remember.
-                    I've recently started to take web development more seriously as I plan to make a career out of it in
-                    the near future.</p>
-                <br>
-                <p>In my spare time, I like to go to the gym, read the latest tech articles and fiddle around with
-                    content creation.</p>
-                <br>
-                <p>Most of my finished and in-progress projects can be viewed on my <a
-                        href="https://github.com/nadbad">Github</a>, and previews
-                    of them are further down on this <a href="#portfolio-section">page</a>.</p>
+    <div class="everything">
+        <div id="home-section">
+            <h3>NADEEM ALHASSAN</h3>
+            <p>Front-End Developer</p>
+            <div>
+                <button onclick="location.href='../Nadeem Alhassan Resume.pdf'" type="button" class="button-1">View My
+                    CV</button>
+                <button onclick="location.href='#contact-section'" type="button" class="button-2">Get In
+                    Touch</button>
             </div>
-        </div>
-    </div>
-
-    <div id="myareas-section">
-        <div class="areas-title" data-aos="zoom-in">
-            <h2>My Areas of Interest</h2>
-        </div>
-        <div class="sections">
-            <div class="section-1" data-aos="fade-up">
-                <img src="../Images/web.png" alt="">
-                <h3>Web Development</h3>
-                <p>Everything from front-end technologies like React and JavaScript, to building robust back-end
-                    servers
-                    and web-services.</p>
-            </div>
-            <div class="section-2" data-aos="fade-up">
-                <img src="../Images/phone.png" alt="">
-                <h3>Mobile Development</h3>
-                <p>Creating android applications as well as mobile Progressive Web Applications.</p>
-            </div>
-            <div class="section-3" data-aos="fade-up">
-                <img src="../Images/cloud.png" alt="">
-                <h3>Cloud Services</h3>
-                <p>Making use of powerful cloud services such as Amazon Web Services and Google Cloud Platform.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="portfolio-section">
-        <div class="portfolio-title" data-aos="zoom-in">
-            <h2>Portfolio</h2>
-        </div>
-        <div class="projects" data-aos="fade-up">
-            <p>Nothing here yet.</p>
-        </div>
-    </div>
-    <div id="contact-section">
-        <div>
-            <div class="contact-title" data-aos="zoom-in">
-                <h2>Contact Me</h2>
-            </div>
-            <div class="contact-me">
-                <div class="section-1-contact" data-aos="fade-up">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nadeem.develops@gmail.com"><img
-                            src="../Images/mail.png" alt="email me"></a>
-                    <p><a
-                            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&nadeem.develops@gmail.com">nadeem.develops@gmail</a>
-                    </p>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Nadeem Alhassan</a>
                 </div>
-                <div class="section-2-contact" data-aos="fade-up">
-                    <a href="https://www.linkedin.com/in/nadeem-alhassan/"><img src="../Images/linkedin.png"
-                            alt="my linkedin"></a>
-                    <p><a href="https://www.linkedin.com/in/nadeem-alhassan/">linkedin.com/in/nadeem-alhassan</a></p>
+                <span class="open-slide" id="menu-slide">
+                    <a onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <a class="side-menu-link home" href="#home-section">Home</a>
+                    <a class="side-menu-link" href="#about-section">About me</a>
+                    <a class="side-menu-link" href="#portfolio-section">Portfolio</a>
+                    <a class="side-menu-link" href="../Nadeem Alhassan Resume.pdf">View CV</a>
+                    <a class="side-menu-link" href="#contact-section">Contact</a>
                 </div>
-                <div class="section-3-contact" data-aos="fade-up">
-                    <a href="https://github.com/nadbad"><img src="../Images/github.png" alt="my github"></a>
-                    <p><a href="https://github.com/nadbad">github.com/nadbad</a></p>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home-section" class="nav-link">Home</a></li>
+                    <li><a href="#about-section">About me</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="../Nadeem Alhassan Resume.pdf">View CV</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="about-section">
+            <div>
+                <h2 data-aos="zoom-in">About Me</h2>
+                <div data-aos="fade-up" class="aboutMe">
+                    <p>My name is Nadeem and I am a Front-End Developer. I've always been interested in technology its
+                        dynamics, so I immersed myself into working harder with fervor to develop this passion.</p>
+                    <br>
+                    <p>In my spare time, I can be found in the gym, reading the latest tech articles or working on
+                        content
+                        creation.</p>
+                    <br>
+                    <p>Most of my finished and in-progress projects can be viewed on my <a
+                            href="https://github.com/nadbad">Github</a>, and previews
+                        of them are further down on this <a href="#portfolio-section">page</a>.</p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div>
-        <div class="copyright">
-            <p>Copyright &copy; 2020 Nadeem Alhassan</p>
+        <div id="portfolio-section">
+            <div class="portfolio-title" data-aos="zoom-in">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="projects" data-aos="fade-up">
+                <div class="project-1" data-aos="fade-up">
+                    <h3>Calorie Tracker (JavaScript)</h3>
+                    <a href="https://github.com/nadbad/Track-My-Calories"><img src="../Images/Project 1.jpg" alt=""></a>
+                </div>
+                <div class="project-2" data-aos="fade-up">
+                    <h3>Weather App (JavaScript)</h3>
+                    <a href="https://github.com/nadbad/My-Weather"><img src="../Images/Project 2.jpg" alt=""></a>
+                </div>
+                <div class="project-3" data-aos="fade-up">
+                    <h3>GitHub Finder (JavaScript)</h3>
+                    <a href="https://github.com/nadbad/Find-the-Github-user"><img src="../Images/Project 3.jpg"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="projects" data-aos="fade-up">
+                <div class="project-1" data-aos="fade-up">
+                    <h3>MangaDoDs Website (JavaScript)</h3>
+                    <a href="https://github.com/nadbad/MangaDoDs-Website"><img src="../Images/Project 4.PNG" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-section">
+            <div>
+                <div class="contact-title" data-aos="zoom-in">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contact-me">
+                    <div class="section-1-contact" data-aos="fade-up">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nadeem.develops@gmail.com"><img
+                                src="../Images/mail.png" alt="email me"></a>
+                        <p><a
+                                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&nadeem.develops@gmail.com">nadeem.develops@gmail</a>
+                        </p>
+                    </div>
+                    <div class="section-2-contact" data-aos="fade-up">
+                        <a href="https://www.linkedin.com/in/nadeem-alhassan/"><img src="../Images/linkedin.png"
+                                alt="my linkedin"></a>
+                        <p><a href="https://www.linkedin.com/in/nadeem-alhassan/">linkedin.com/in/nadeem-alhassan</a>
+                        </p>
+                    </div>
+                    <div class="section-3-contact" data-aos="fade-up">
+                        <a href="https://github.com/nadbad"><img src="../Images/github.png" alt="my github"></a>
+                        <p><a href="https://github.com/nadbad">github.com/nadbad</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="copyright">
+                <p>Copyright &copy; 2020 Nadeem Alhassan</p>
+            </div>
         </div>
     </div>
-
-    <script>
-        function openSlideMenu() {
-            document.getElementById('side-menu').style.width = '250px';
-            document.getElementById('main').style.marginLeft = '250px';
-        }
-
-        function closeSlideMenu() {
-            document.getElementById('side-menu').style.width = '0';
-            document.getElementById('main').style.marginLeft = '0';
-        }
-    </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var nav = document.querySelector("nav");
-            nav.classList.toggle("sticky", window.scrollY > 150);
-        })
-    </script>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var nav = document.querySelector("nav");
-            nav.classList.toggle("sticky-in", window.scrollY > 0);
-        })
-    </script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../JS/app.js"></script>
+    <script src="../JS/test.js"></script>
 </body>
 
 </html>

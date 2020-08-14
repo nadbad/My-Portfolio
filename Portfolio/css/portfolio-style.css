@@ -1,8 +1,8 @@
 #portfolio-section {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding-top: 60px;
-    background-color: rgb(252, 252, 252);
-    height: 110vh;
+    background-color: rgb(247, 247, 247);
+    height: 190vh;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@
 
 .projects p {
     color: black;
-    font-size: 50px;
+    font-size: 20px;
     font-display: bold;
     font-weight: bold;
     display: flex;
@@ -29,6 +29,89 @@
     align-content: center;
     text-align: center;
     justify-content: center;
-    margin-bottom: 70px;
-    margin-top: 200px;
+}
+
+.projects {
+    display: flex;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.project-1 {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-1 h3 {
+    font-weight: 400;
+    color: black;
+    font-size: 22px;
+}
+
+.project-2 {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-2 h3 {
+    font-weight: 400;
+    color: black;
+    font-size: 22px;
+}
+
+.project-3 {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-3 h3 {
+    font-weight: 400;
+    color: black;
+    font-size: 22px;
+}
+
+
+.project-1 img {
+    width: 90%;
+}
+
+.project-2 img {
+    width: 90%;
+}
+
+.project-3 img {
+    width: 90%;
+}
+
+
+@media(max-width: 768px){
+    .projects {display: block;}
+    #portfolio-section {height: 2500px;}
+}
+@media(max-width: 700px){
+    .projects {display: block;}
+    #portfolio-section {height: 2300px;}
+}
+@media(max-width: 600px){
+    .projects {display: block;}
+    #portfolio-section {height: 1900px;}
+}
+
+@media(max-width: 500px){
+    .projects {display: block;}
+    #portfolio-section {height: 1700px;}
+}
+
+@media(max-width: 400px){
+    .projects {display: block;}
+    #portfolio-section {height: 1500px;}
 }

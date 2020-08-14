@@ -1,7 +1,7 @@
 #contact-section {
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding-top: 60px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(252, 252, 252);
     height: 80vh;
     width: 100%;
 }
@@ -78,17 +78,19 @@
     text-decoration: none;
 }
 
-.copyright {
+.copyright p {
     background-color: rgb(54, 54, 54);
-    height: 30vh;
+    height: 10vh;
     color: #737373;
     align-items: center;
     align-content: center;
     text-align: center;
     justify-content: center;
-    padding-top: 15vh;
+    padding: 25px;
     font-size: 16px;
+    margin: 0;
 }
+
 
 @media(max-width: 768px){
     #contact-section {height: 768px;}
