@@ -1,13 +1,13 @@
-window.addEventListener('load', hideLoader())
+window.addEventListener('load', hideLoader());
 
 function hideLoader() {
-    everything = document.querySelector('.everything');
     loader = document.querySelector('.loader');
+    everything = document.querySelector('.everything')
 
     setTimeout(function () {
         $(loader).fadeOut('slow');
-    }, 2500);
+    }, 2400);
     setTimeout(function () {
-        $(everything).fadeIn('slow');
+        everything.style.visibility = 'visible';
     }, 3000);
-}
+};
