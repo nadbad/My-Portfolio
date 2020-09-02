@@ -7,4 +7,6 @@ Viewable on here https://nadeemalhassan.netlify.app/
 
 -HTML & CSS
 
+-Sass
+
 -JavaScript
